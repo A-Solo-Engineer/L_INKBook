@@ -39,22 +39,23 @@ Content hashing follows a Merkle Tree structure:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
+
+```
 L_INKBook/
 │
 ├── backend/
-│   ├── hasher.py       —  hashing engine
-│   ├── database.py     — SQLite storage/retrieval
-│   ├── entry.py        — Entry blueprint/creation
-│   └── verify.py       — Chain tamper detection
+│   ├── hasher.py       # Hashing engine
+│   ├── database.py     # SQLite storage & retrieval
+│   ├── entry.py        # Entry blueprint / creation
+│   └── verify.py       # Chain tamper detection
 │
-├── frontend/           — In development
+├── frontend/           # In development
 │
-├── config.py           — Global configuration
-├── main.py             — Application entry point
-└── requirements.txt    — Dependencies
-
----
+├── config.py           # Global configuration
+├── main.py             # Application entry point
+└── requirements.txt    # Dependencies
+```
 
 ## Installation
 
