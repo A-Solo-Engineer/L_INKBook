@@ -1,0 +1,6 @@
+user.json
+lockdown.json
+linkbook.db
+__pycache__/
+*.pyc
+.env
